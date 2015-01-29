@@ -47,7 +47,7 @@ public class Matriz {
         } 
         return matrizResultante; 
     } 
-    
+ // invierte   
     @Override
     public String toString(){
         String ret = "";
