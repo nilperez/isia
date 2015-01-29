@@ -16,7 +16,7 @@ import java.util.Random;
 public class Matriz {
     private int[][]datos;
     private Random rnd = new Random();
-    
+//Prodycto    
     public Matriz(int filas, int columnas, boolean inicializarAleatorio){
         datos = new int[columnas][];
         for(int i=0; i<columnas; i++){
