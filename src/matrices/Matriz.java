@@ -34,6 +34,8 @@ public class Matriz {
         return new Dimension(datos.length, datos[0].length);
     }
     
+    //invertir
+    
     public static Matriz sumarDosMatrices(Matriz a, Matriz b) throws DimensionesIncompatibles { 
         if(! a.getDimension().equals(b.getDimension())) throw new DimensionesIncompatibles("La suma de matrices requiere matrices de las mismas dimensiones");        
         int i, j, filasA, columnasA; 
